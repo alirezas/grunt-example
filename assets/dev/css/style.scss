@@ -1,0 +1,23 @@
+$width: 450px;
+$bg_color: #efefef;
+$font_family: Helvetica, sans-serif;
+$content_bg_color: #ffffff;
+$separator_color: #f1f1f1;
+
+body {
+	background: $bg_color;
+	font-family: $font_family;
+	line-height: 1.5;
+}
+.wrapper {
+	width: $width;
+	margin: 0 auto;
+	padding: 30px;
+	background: $content_bg_color;
+
+	hr {
+		background: $separator_color;
+		border: none;
+		padding: 5px 0;
+	}
+}

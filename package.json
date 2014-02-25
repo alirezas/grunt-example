@@ -1,0 +1,14 @@
+{
+	"name": "gruntExample",
+	"version": "0.1.0",
+	"private": true,
+
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-htmlhint": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-sass": "*",
+		"grunt-contrib-watch": "*",
+		"matchdep": "*"		
+	}
+}
